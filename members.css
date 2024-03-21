@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    width: 275px;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+.sec {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    position: relative;
+    /* display: flex; */
+    padding: 0px;
+    justify-content: center;
+    background: #1c0522;
+}
+
+.coachestitle {
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+}
+
+.coachestitle h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 30px 80px;
+}
+
+.coaches {
+    width: 100%;
+    height: 50vh;
+    top: 25vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coach1 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.coach1 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.coachtext1 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.coachtext1 h4 {
+    font-size: 1vw;
+}
+
+.coach2 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%
+}
+
+.coach2 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.coachtext2 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.coachtext2 h4 {
+    font-size: 1vw;
+}
+
+.coach3 {
+    position: relative;
+    width: 25%;
+}
+
+.coach3 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.coachtext3 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.coachtext3 h4 {
+    font-size: 1vw;
+}
+
+.sec2 {
+    width: 100%;
+    top: 40vh;
+    left: 0;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: #1c0522;
+}
+
+.coaches2 {
+    width: 100%;
+    height: 55vh;
+    top: 10vh;
+    left: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coach4 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.coach4 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.coachtext4 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.coachtext4 h4 {
+    font-size: 1vw;
+}
+
+.coach5 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.coach5 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.coachtext5 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.coachtext5 h4 {
+    font-size: 1vw;
+}
+
+.border {
+    height: 6px;
+}
+
+.athletes1 {
+    top: 80vh;
+    left: 0;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    padding: 0;
+    background: #1c0522;
+}
+
+.athletestitle {
+    color: #fff;
+    height: 10vh;
+    position: absolute;
+}
+
+.athletestitle h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 30px 80px;
+}
+
+.athletesrow1 {
+    width: 100%;
+    height: 50vh;
+    top: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image1 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text1 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text1 h4 {
+    font-size: 0.9vw;
+}
+
+.image2 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image2 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text2 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text2 h4 {
+    font-size: 0.9vw;
+}
+
+.image3 {
+    position: relative;
+    width: 25%;
+}
+
+.image3 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text3 h4 {
+    font-size: 0.9vw;
+}
+
+.text3 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.athletes2 {
+    top: 80vh;
+    left: 0;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    padding: 0;
+    background: #1c0522;
+}
+
+.athletesrow2 {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image4 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.image4 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text4 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text4 h4 {
+    font-size: 0.9vw;
+}
+
+.image5 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image5 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text5 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text5 h4 {
+    font-size: 0.9vw;
+}
+
+.image6 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image6 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text6 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text6 h4 {
+    font-size: 0.9vw;
+}
+
+.athletes3 {
+    top: 77vh;
+    left: 0;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    padding: 0;
+    background: #1c0522;
+}
+
+.athletesrow3 {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image7 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.image7 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text7 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text7 h4 {
+    font-size: 0.9vw;
+}
+
+.image8 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image8 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text8 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text8 h4 {
+    font-size: 0.9vw;
+}
+
+.image9 {
+    position: relative;
+    width: 25%;
+    margin-right: 5%;
+}
+
+.image9 img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+.text9 {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 26vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.text9 h4 {
+    font-size: 0.9vw;
+}
+
+.otherathletes {
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    position: relative;
+    top: 75vh;
+    background-color: #1c0522;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.otherathletes h3 {
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.other1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
