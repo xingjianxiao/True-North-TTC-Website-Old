@@ -98,13 +98,6 @@ header {
     }
 }
 
-.wrapper {
-    position: absolute;
-    top: 85%;
-    left: 59%;
-    transform: translate(-50%, -50%);
-}
-
 .wrapper ul {
     list-style: none;
 }
@@ -218,7 +211,6 @@ header {
 .container {
     width: 30%;
     height: 50vh;
-    top: 50vh;
     display: grid;
     place-items: center;
     padding-left: 15%;
@@ -260,4 +252,28 @@ button {
     background: #fff;
     color: #1c0522;
     box-shadow: 0 0 30px #fff;
+}
+
+#address p {
+    position: static; /* Change position to static */
+    margin: 20px 0; /* Adjust margin for better spacing */
+    color: #fff;
+    font-size: 1.5vw;
+    white-space: nowrap;
+}
+
+#address h1 {
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .sectiontop {
+        display: none;
+    }
+    .socials img {
+        display: none;
+    }
+    #address p {
+        font-size: 2.7vw;
+    }
 }
